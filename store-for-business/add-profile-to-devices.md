@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 
 Windows Autopilot simplifies device set up for IT Admins. For an overview of benefits, scenarios, and prerequisites, see [Overview of Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
 
-Watch this video to learn more about Windows Autopilot in Micrsoft Store for Business. </br>
+Watch this video to learn more about Windows Autopilot in Microsoft Store for Business. </br>
 
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/3b30f2c2-a3e2-4778-aa92-f65dbc3ecf54?autoplay=false]
 
@@ -43,6 +43,9 @@ These settings are configured with all Autopilot deployment profiles:
 ### Autopilot deployment profiles - optional settings
 These settings are off by default. You can turn them on for your Autopilot deployment profiles:
 - Skip privacy settings
+- Disable local admin account creation on the device
+- Skip End User License Agreement (EULA)
+
 
 ### Support for Autopilot profile settings
 Autopilot profile settings are supported beginning with the version of Windows they were introduced in. This table summarizes the settings and what they are supported on. 
@@ -57,7 +60,7 @@ Autopilot profile settings are supported beginning with the version of Windows t
 
 ## Windows Autopilot deployment profiles in Microsoft Store for Business and Education
 You can manage new devices in Microsoft Store for Business or Microsoft Store for Education. Devices need to meet these requirements:
-- Windows 10, version 1703 or later
+- Windows 10, version 1703 or later.
 - New devices that have not been through Windows out-of-box experience. 
 
 ## Add devices and apply Autopilot deployment profile
