@@ -115,6 +115,12 @@ A [glossary](#glossary) of abbreviations used in this topic is provided at the e
 | [Autopilot for existing devices](existing-devices.md)  |  Offers an upgrade path to Windows Autopilot for all existing Win 7/8 devices. |
 
 
+## Security
+
+| Question | Answer |
+| --- | --- |
+| Phishing attacks  | Autopilot is protected from phishing attacks for several reasons, such as:  An attacker could not create a false CSP account, which are highly vetted accounts.  An attacker would need to get physical access to a hijacked devices in order to harvest the device ID. The attacker would need ot get access to legitimate AAD log-in credentials for the company associated with the hijacked device. |
+
 
 ## General
 
